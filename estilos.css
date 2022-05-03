@@ -71,6 +71,51 @@ footer {
     padding-top: 15px;
 }
 
+
+
+/* CONTACTO */
+
+.contactoh3{
+    margin-left: 0px!important;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.contactoP p{
+    margin-bottom: 0!important;
+}
+
+.formularioContacto{
+    margin-top: 15px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERYS */
+
 @media only screen and (min-width: 320px) and (max-width: 576px){
     .carouselSize{
         height: 300px;
