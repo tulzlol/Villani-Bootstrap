@@ -10,15 +10,7 @@
 
 /* SECTION CAROUSEL */
 
-.carouselInner {
-    height: 100px !important;
-}
-
-.carouselSize {
-    height: 50vh;
-}
-
-.carousel-main-middle{
+.carousel-main-middle {
     top: 30%;
 }
 
@@ -73,8 +65,17 @@
 
 /* FOOTER */
 
-footer{
+footer {
     margin-top: 20px;
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     padding-top: 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .carouselSize{
+        height: 300px;
+    }
+    .carousel-main-middle {
+        top: 5%;
+    }
 }
