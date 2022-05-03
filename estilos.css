@@ -1,0 +1,80 @@
+/* SECTION NAV */
+
+.navbar {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+/* SECTION CAROUSEL */
+
+.carouselInner {
+    height: 100px !important;
+}
+
+.carouselSize {
+    height: 50vh;
+}
+
+.carousel-main-middle{
+    top: 30%;
+}
+
+
+/* SECTION MAIL */
+
+.mailBox {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin-top: 30px;
+    margin-bottom: 2vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+}
+
+.mailLeft {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.mailRight {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.mailRight h5 {
+    background-color: #94949421;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnMargin {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+/* SECTION BOX */
+
+.box {
+    margin: 25px;
+    padding: 15px;
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(173, 173, 173, 0.342);
+}
+
+.box p {
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    padding-top: 15px;
+}
